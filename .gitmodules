@@ -1,0 +1,3 @@
+[submodule "Juno"]
+	path = Juno
+	url = git@github.com:rob-villarre/Juno.git
