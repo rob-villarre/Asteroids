@@ -1,5 +1,5 @@
 #include "Application.h"
-#include "TestLayer.h"
+#include "GameLayer.h"
 
 int main()
 {
@@ -9,7 +9,7 @@ int main()
 
     Juno::Application app(appSpec);
 
-    app.PushLayer(std::make_unique<TestLayer>(app, "Initial Test Layer"));
+    app.PushLayer(std::make_unique<GameLayer>(app));
     app.Run();
 
 
